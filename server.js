@@ -145,7 +145,7 @@ app.post("/api/login", async (req, res) => {
     success: true,
     message: "Error, please try again",
     user: { email: email.trim() },
-    redirect: `http://127.0.0.1:5500/frontend/index.html`,
+    redirect: `https://micro-s-fe.vercel.app/`,
   });
 });
 
